@@ -14,7 +14,16 @@ console.log("JS OK");
 const question = prompt("Quale parola vuoi inserire?");
 
 
+// ? JSDOC syntax
+
+/**
+ * Cheks if an element is still the same also if is reversed
+ * @param {string} text the text to check
+ * @returns {boolean} the result of the check
+*/
+
 // CREO UNA FUNZIONE PER CAPIRE SE LA PAROLA E' PALINDROMA O MENO
+
 function isPalindrome(text) {
     // CREO UNA VARIABILE PER STABILIRE SE LA PAROLA E' PALINDROMA TRAMITE UN VALORE BOOLEANO
     let palindrome = false;
